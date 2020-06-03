@@ -1,0 +1,5 @@
+This dataset classifies in Supervised Learning problem,
+Since in data both input and output/labels is given.
+We need to train the model such that given a users 
+UserId, Age,Gender,EstimatedSalary the model must be able to predict 
+wheather the user is likely purchase something.
