@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+
+<body>
+      <h1>Predict If Consumer Will Purchase or Not</h1>
+    <div >
+    <form action='/predict' method="POST">
+     
+            <label for="gender"><b>Gender</b></label><span></span>
+              <select id="gender" name="gender"placeholder="Gender"> 
+              <option value="0">Female</option> 
+              <option value="1">Male</option> 
+            </select> 
+            <br><br>
+           
+          <label for="age"><b>Age </b></label>
+           <input type="number" id="age" name="age" placeholder="Age"> 
+
+            <br><br>
+         
+            <label for="EstimatedSalary"><b>Estimated Salary</b></label>
+            <input type="number" id=EstimatedSalary name="EstimatedSalary",placeholder="Estimtated salary"> 
+
+      </div>
+        <br><br>
+
+  <button type="submit">Prediction</button>
+      </div>
+    </form>
+       <br>
+       <h3>{{pred}}</h3>
+       
+   <!--  </div>
+  </div>>
+   -->
+  </body>
+</html>
